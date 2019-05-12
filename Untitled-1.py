@@ -1,4 +1,5 @@
-import time
+
+import os
 with open("C:\\Users\\28347\\Desktop\\5.9python\\text-file-process-yusithiesun\\text-file-process\\log_files\\201811113003.log",encoding='utf-8')as f:
   counter=0
   for line in f:
@@ -8,4 +9,4 @@ with open("C:\\Users\\28347\\Desktop\\5.9python\\text-file-process-yusithiesun\\
     if student_id[3:]=='201811113003':
       counter+=1
   print(counter)
-time.sleep(60)
+
