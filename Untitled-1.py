@@ -1,6 +1,6 @@
 
 import os
-with open("C:\\Users\\28347\\Desktop\\5.9python\\text-file-process-yusithiesun\\text-file-process\\log_files\\201811113003.log",encoding='utf-8')as f:
+with open("text-file-process-yusithiesun\\text-file-process\\log_files\\201811113003.log",encoding='utf-8') as f:
   counter=0
   for line in f:
     student_id=line.split(',')[1]
